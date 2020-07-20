@@ -1,4 +1,4 @@
-import { Container, Row, Col, Form } from 'react-bootstrap';
+import { Container, Row, Col, Form, Button } from 'react-bootstrap';
 
 export default () => {
     return (
@@ -19,6 +19,7 @@ export default () => {
                         <Form.Group controlId="formBasicCheckbox">
                             <Form.Check type="checkbox" label="Check me out" />
                         </Form.Group>
+                        <Button>yolo</Button>
                     </Form>
                 </Col>
             </Row>
